@@ -55,6 +55,7 @@ const BasicTextFields = () => {
             setName(event.target.value);
           }} />
         <TextField id="outlined-basic" label="Дата" variant="outlined" sx={{paddingBottom: "10px"}}
+          required={true}
           value={date}
           error={errorTextBoolDate}
           helperText={errorTextDate}
