@@ -15,7 +15,7 @@ const BasicTextFields = () => {
   const [bageName, setBageName] = React.useState("");
   const [bageDate, setBageDate] = React.useState("");
   const userNameRegExp = "^[a-zA-Zа-яА-Я]([-']?[a-zа-я]+)*( [a-zA-Zа-яА-Я]([-']?[a-zа-я]+)*)+$";
-  const dateRegExp = "((0?[1-9]|[12][0-9]|3[01])\\.(0?[1-9]|1[012])\\.(?:19|20)[0-9][0-9])$";
+  const dateRegExp = "(^(0?[1-9]|[12][0-9]|3[01])\\.(0?[1-9]|1[012])\\.(?:19|20)[0-9][0-9])$";
 
   const handleBadgeForm = () => {
 
